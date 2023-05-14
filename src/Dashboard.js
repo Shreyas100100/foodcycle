@@ -1,68 +1,12 @@
-// import React from 'react';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <nav className="navbar">
-//         <ul>
-//           <li><a href="#">Home</a></li>
-//           <li><a href="#">My Listings</a></li>
-//           <li><a href="#">Add Listing</a></li>
-//           <li><a href="#">My Profile</a></li>
-//         </ul>
-//       </nav>
-//       <div className="cards-container">
-//         <div className="card">
-//           <h2>Restaurant Name</h2>
-//           <p>Surplus Food (Feeds x people)</p>
-//           <p>Location</p>
-//           <button>Claim</button>
-//         </div>
-//         <div className="card">
-//           <h2>Restaurant Name</h2>
-//           <p>Surplus Food (Feeds x people)</p>
-//           <p>Location</p>
-//           <button>Claim</button>
-//         </div>
-//         <div className="card">
-//           <h2>Restaurant Name</h2>
-//           <p>Surplus Food (Feeds x people)</p>
-//           <p>Location</p>
-//           <button>Claim</button>
-//         </div>
-//         <div className="card">
-//           <h2>Restaurant Name</h2>
-//           <p>Surplus Food (Feeds x people)</p>
-//           <p>Location</p>
-//           <button>Claim</button>
-//         </div>
-//         <div className="card">
-//           <h2>Restaurant Name</h2>
-//           <p>Surplus Food (Feeds x people)</p>
-//           <p>Location</p>
-//           <button>Claim</button>
-//         </div>
-//         <div className="card">
-//           <h2>Restaurant Name</h2>
-//           <p>Surplus Food (Feeds x people)</p>
-//           <p>Location</p>
-//           <button>Claim</button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default App;
 import React from "react";
 import "./App.css";
 
 function App() {
+  var x=50;
   const restaurants = [
     {
       name: "DURVANKUR",
-      surplusFood: "Feeds 5 people",
+      surplusFood: "20 kg",
       location: "DURVANKUR",
       imageUrl: "https://example.com/restaurant1.jpg",
       mapUrl:
@@ -78,7 +22,7 @@ function App() {
     },
     {
       name: "KANHA",
-      surplusFood: "Feeds 5 people",
+      surplusFood: "20 kg",
       location: "KANHA",
       imageUrl: "https://example.com/restaurant1.jpg",
       mapUrl:
